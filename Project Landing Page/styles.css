@@ -29,10 +29,6 @@ header {
     text-align: center;
 }
 
-.h_three, .h_four {
-  
-}
-
 .h_three {
     width: 30%;
     margin-left: 200px;
@@ -78,13 +74,13 @@ header {
     margin: 16px;
     border-radius: 15px;
     border-style: none;
-    
 }
 
 .button_one:hover {
     background-color: yellow;
     color: black;
     cursor: pointer;
+    transform: scale(1.5);
 }
 
 .container_two {
@@ -137,4 +133,69 @@ header {
     text-align: end;
     color: #1F2937;
     font-weight: 900;
+}
+
+.container_four {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_box {
+    background-color: #3882F6;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.pa_one {
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.pa_two {
+    color: white;
+    font-size: 18px;
+    margin-left: 130px;
+}
+
+.blue_button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 16px;
+    width: 140px;
+    position: absolute;
+    right: 15%;
+    top: 40%;
+    border: solid white 3px;
+}
+
+.blue_button:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+footer {
+    background-color: #1f2937;
+    height: 120px;
+
+}
+.container_five {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footloose {
+    color: white;
 }
